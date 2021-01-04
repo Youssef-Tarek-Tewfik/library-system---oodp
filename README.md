@@ -1,16 +1,2 @@
-# librarysystem
-
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Design Patterns Course Project] Flutter cross-platform mobile application that allows a user to register (unimplemented) and search for books that are displayed along with their book cover, author and list price (if available) and add these books to the user’s collection. User collections are split into three categories, according to the availability of the book’s image and/or text. The search function uses Google Books API for queries and retrieving the results, which is limited to 10 as it is the free version. Four software Design Patterns were used in this project: Singleton, Decorator, Factory and Strategy.
+Singleton was used for the app’s main color and theme class, Decorator for adding books to the user’s collections, Factory for the creation of different book type instances and Strategy was used for the different book types.
